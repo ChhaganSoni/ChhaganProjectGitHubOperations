@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite">
 
 	<listeners>
@@ -16,3 +17,20 @@
 	Test -->
 </suite> <!--
 Suite -->
+=======
+
+<suite name="Suite">
+
+	<parameter name="Browser" value="Chrome" />
+	<parameter name="Environment" value="QA" />
+
+	<test thread-count="5" name="Test">
+
+		<classes>
+			<class name="Pkg_LoginPageTC.loginTC" />
+		</classes>
+
+	</test> 
+	
+</suite>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4

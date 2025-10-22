@@ -25,7 +25,11 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
+<<<<<<< HEAD
       <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+=======
+      <span class="top-banner-font-1">1 suite</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +43,11 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
+<<<<<<< HEAD
               <span class="suite-name border-failed">Suite</span>
+=======
+              <span class="suite-name border-passed">Suite</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +58,11 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+<<<<<<< HEAD
                     <span>D:\JavaWorkSpaceTests\retryListener\testng.xml</span>
+=======
+                    <span>D:\JavaWorkSpaceTests\CreateFrameWorkTesting\testng.xml</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,6 +104,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
+<<<<<<< HEAD
                     <span class="method-stats">5 methods, 2 failed,  2 skipped,  1 passed</span>
                   </li>
                   <li>
@@ -131,6 +144,9 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
+=======
+                    <span class="method-stats">1 method,   1 passed</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -141,7 +157,11 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+<<<<<<< HEAD
                         <a href="#" panel-name="suite-Suite" title="homepage_Pkg.homePageClass" class="method navigator-link" hash-for-method="HomePageVisit">HomePageVisit</a> <!-- method navigator-link -->
+=======
+                        <a href="#" panel-name="suite-Suite" title="Pkg_LoginPageTC.loginTC" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -156,6 +176,7 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+<<<<<<< HEAD
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -326,13 +347,25 @@ Session ID: a6813e216082ac279fb20d98b3e21327
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">homepage_Pkg.homePageClass</span>
+=======
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Pkg_LoginPageTC.loginTC</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+<<<<<<< HEAD
                   <a name="HomePageVisit">
                   </a> <!-- HomePageVisit -->
                   <span class="method-name">HomePageVisit</span>
+=======
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -340,13 +373,18 @@ Session ID: a6813e216082ac279fb20d98b3e21327
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
             <span class="header-content">D:\JavaWorkSpaceTests\retryListener\testng.xml</span>
+=======
+            <span class="header-content">D:\JavaWorkSpaceTests\CreateFrameWorkTesting\testng.xml</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+<<<<<<< HEAD
   &lt;listeners&gt;
     &lt;listener class-name=&quot;commonUtility_Pkg.reTryListener&quot;/&gt;
     &lt;listener class-name=&quot;commonUtility_Pkg.ExtentTestNGListener&quot;/&gt;
@@ -355,6 +393,13 @@ Session ID: a6813e216082ac279fb20d98b3e21327
     &lt;classes&gt;
       &lt;class name=&quot;homepage_Pkg.homePageClass&quot;/&gt;
       &lt;class name=&quot;homepage_Pkg.productSelection&quot;/&gt;
+=======
+  &lt;parameter name=&quot;Environment&quot; value=&quot;QA&quot;/&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Pkg_LoginPageTC.loginTC&quot;/&gt;
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -368,7 +413,11 @@ Session ID: a6813e216082ac279fb20d98b3e21327
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
+<<<<<<< HEAD
                 <span class="test-name">Test (2 classes)</span>
+=======
+                <span class="test-name">Test (1 class)</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -394,6 +443,7 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
+<<<<<<< HEAD
 data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'selectProduct')
@@ -415,11 +465,22 @@ data.setCell(4, 0, 4)
 data.setCell(4, 1, 'productAdding')
 data.setCell(4, 2, 'homepage_Pkg.productSelection')
 data.setCell(4, 3, 4);
+=======
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login')
+data.setCell(0, 2, 'Pkg_LoginPageTC.loginTC')
+data.setCell(0, 3, 2701);
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
+<<<<<<< HEAD
               <span class="suite-total-time">Total running time: 2 minutes</span>
+=======
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -434,6 +495,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
             <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
@@ -444,6 +506,11 @@ return data;
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
+=======
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -452,6 +519,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+<<<<<<< HEAD
               <div class="chronological-class-name">homepage_Pkg.homePageClass</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp(chrome)</span>
@@ -483,6 +551,16 @@ return data;
                 </img>
                 <span class="method-name">productAdding</span>
                 <span class="method-start">161216 ms</span>
+=======
+              <div class="chronological-class-name">Pkg_LoginPageTC.loginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init(QA, Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">4074 ms</span>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
