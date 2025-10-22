@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="commonUtility_Pkg.reTryListener"></listener>
+		<listener class-name="commonUtility_Pkg.ExtentTestNGListener"/>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="homepage_Pkg.homePageClass" />
+			<class name="homepage_Pkg.productSelection" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
+=======
 
 <suite name="Suite">
 
@@ -15,3 +33,4 @@
 	</test> 
 	
 </suite>
+>>>>>>> 8c5dedeb41ec69279804c5b72ded7361a3f0ccb4
